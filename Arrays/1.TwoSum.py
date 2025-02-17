@@ -9,3 +9,6 @@ class Solution:
                 return [cache[remainder], i]
             
             cache[nums[i]] = i
+    
+# Time: O(n)
+# Space: O(n)
