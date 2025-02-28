@@ -12,5 +12,8 @@ class Solution:
 
         return dp[amount] if dp[amount] <= amount else -1
 
-# Time: O(c*a) -> 0 <= coins.length <= 12 -> O(a)
+# Time: O(a*c)
 # Space: O(a)
+
+# a - amount
+# c - len(coins)
